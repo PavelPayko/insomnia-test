@@ -1,0 +1,29 @@
+_id: req_83d1e2dc11ba4a09a1caa1c6725f6e79
+type: Request
+parentId: wrk_1fe241acf33c4be4b85152bdc7b07fe6
+modified: 1685091847811
+created: 1685091638303
+url: "{{ _.api }}/auth/login"
+name: Auth
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "username": "testAdmin",
+      "password": "testAdmin"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1685091638303
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

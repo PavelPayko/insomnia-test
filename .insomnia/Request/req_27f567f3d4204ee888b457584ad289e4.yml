@@ -1,0 +1,29 @@
+_id: req_27f567f3d4204ee888b457584ad289e4
+type: Request
+parentId: wrk_1fe241acf33c4be4b85152bdc7b07fe6
+modified: 1686660841866
+created: 1686660809514
+url: "{{ _.api }}/inspection/parametrs/list"
+name: "check params list "
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - id: pair_1aa96520da7246578395c0bb04086e6f
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1685091621025.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

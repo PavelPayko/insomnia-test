@@ -1,0 +1,32 @@
+_id: req_03ef3bd77bb2480882009697559f31e9
+type: Request
+parentId: wrk_1fe241acf33c4be4b85152bdc7b07fe6
+modified: 1688429772682
+created: 1688427656692
+url: http://localhost:3000/profile/
+name: New Request
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"last_name": true,
+    	"first_name": true,
+    	"userLink_set": false,
+    	"userextra": false,
+    	"is_private": false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1688427656692
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,25 @@
+_id: req_5d539b99c89540f68b777bb6997619c3
+type: Request
+parentId: wrk_1fe241acf33c4be4b85152bdc7b07fe6
+modified: 1689258229037
+created: 1687226783217
+url: "{{ _.api }}/inspection?projectNumber=1&number=1"
+name: get check
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_1aa96520da7246578395c0bb04086e6f
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1685091621022.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

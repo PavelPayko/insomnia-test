@@ -1,0 +1,60 @@
+_id: req_08bb19290c3341d7b401e931c0b02f6e
+type: Request
+parentId: wrk_1fe241acf33c4be4b85152bdc7b07fe6
+modified: 1687879239418
+created: 1687879165543
+url: "{{ _.api }}/violations"
+name: violations add
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: projectNumber
+      value: "1"
+      id: pair_2a25f2996d5049179d6fb05225950b99
+    - id: pair_8b8e1e73cc6c431fb0b6b3ee29d63094
+      name: desc
+      value: Контракт на работу №1
+      description: ""
+    - id: pair_f895a4da617c4f22abf78fa4320409a5
+      name: typeId
+      value: "2"
+      description: ""
+    - id: pair_9c382459facf4371ab9021115a28c47d
+      name: deadline
+      value: Fri, 30 Jun 2023 14:41:13 GMT
+      description: ""
+    - id: pair_40ddecc2398f41fd950f35d64a3821f8
+      name: executorOrg
+      value: "3"
+      description: ""
+    - id: pair_522cb9a3b7f14c0d9b0260aa2ba9a96c
+      name: stateId
+      value: "1"
+      description: ""
+    - id: pair_628740f9b85d43639bb087f1c31c67df
+      name: action
+      value: Контракт на работу №1
+      description: ""
+    - id: pair_5a3cff5c04c74d7a9b723c74211d9272
+      name: controlEventUuid
+      value: ff571594-aa7b-428d-8178-2153a3b56e77
+      description: ""
+parameters: []
+headers:
+  - id: pair_1aa96520da7246578395c0bb04086e6f
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+  - name: Content-Type
+    value: multipart/form-data
+authentication: {}
+metaSortKey: -1685091621008.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

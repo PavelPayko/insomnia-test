@@ -1,0 +1,25 @@
+_id: req_0a9a4cbb5768410cb420335269943be1
+type: Request
+parentId: wrk_1fe241acf33c4be4b85152bdc7b07fe6
+modified: 1688985559722
+created: 1688985533149
+url: "{{ _.api }}/project/docs/checkList/listAll"
+name: get project docs list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_1aa96520da7246578395c0bb04086e6f
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1685091620972.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

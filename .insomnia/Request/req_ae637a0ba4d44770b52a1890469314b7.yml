@@ -1,0 +1,25 @@
+_id: req_ae637a0ba4d44770b52a1890469314b7
+type: Request
+parentId: wrk_1fe241acf33c4be4b85152bdc7b07fe6
+modified: 1687778397414
+created: 1687778356000
+url: "{{ _.api }}/violations/controlEvents/list?withDeleted=false"
+name: violations controlEvents list
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_1aa96520da7246578395c0bb04086e6f
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1685091621012.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

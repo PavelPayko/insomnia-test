@@ -1,0 +1,25 @@
+_id: req_44420d85a1bc43ffaa71c641c675b6cb
+type: Request
+parentId: wrk_1fe241acf33c4be4b85152bdc7b07fe6
+modified: 1687182492460
+created: 1687182481402
+url: "{{ _.api }}/violations/types"
+name: "violations types "
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_1aa96520da7246578395c0bb04086e6f
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+authentication: {}
+metaSortKey: -1685091620994
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

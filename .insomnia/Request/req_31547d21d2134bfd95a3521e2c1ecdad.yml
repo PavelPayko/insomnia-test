@@ -1,0 +1,57 @@
+_id: req_31547d21d2134bfd95a3521e2c1ecdad
+type: Request
+parentId: wrk_1fe241acf33c4be4b85152bdc7b07fe6
+modified: 1687225275845
+created: 1687225269869
+url: "{{ _.api }}/inspection"
+name: Check update
+description: ""
+method: PATCH
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_890466a3000d4765a2385bb385c1d478
+      name: projectNumber
+      value: "1"
+      description: ""
+    - id: pair_4759356a65404848804185d32907c29c
+      name: contractControlId
+      value: "2"
+      description: ""
+    - id: pair_3e5f15d9b969422ab0344acb946c020c
+      name: contractWorkId
+      value: "2"
+      description: ""
+    - id: pair_733a3ef4348e493696c0cadf94b156f5
+      name: "inspectionParams "
+      value: |-
+        [{
+        "uuid": "da583fe5-25af-4e78-b423-7cca1eabaaeb",
+        "value": "test"
+        },
+        {
+        "uuid": "e6c1e6e0-17e4-4332-ac88-3f4b96472150",
+        "value": "test"
+        },
+        }]
+      description: ""
+      type: text
+      multiline: true
+      disabled: false
+parameters: []
+headers:
+  - id: pair_1aa96520da7246578395c0bb04086e6f
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+  - name: Content-Type
+    value: multipart/form-data
+authentication: {}
+metaSortKey: -1685091621037.75
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

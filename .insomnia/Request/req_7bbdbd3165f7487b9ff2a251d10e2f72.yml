@@ -1,0 +1,34 @@
+_id: req_7bbdbd3165f7487b9ff2a251d10e2f72
+type: Request
+parentId: wrk_1fe241acf33c4be4b85152bdc7b07fe6
+modified: 1687778548089
+created: 1687778493833
+url: "{{ _.api }}/violations/controlEvents"
+name: "violations add controlEvent "
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+      "desc": "Тестовое контрольное мероприятие",
+      "descInActs": "Тестовое контрольное мероприятие",
+      "priority": 1
+    }
+parameters: []
+headers:
+  - id: pair_1aa96520da7246578395c0bb04086e6f
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1685091621009.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

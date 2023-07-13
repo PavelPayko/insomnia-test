@@ -1,0 +1,36 @@
+_id: req_9cfdf8aeb31d4f7986fcbdc627936819
+type: Request
+parentId: wrk_1fe241acf33c4be4b85152bdc7b07fe6
+modified: 1688066880694
+created: 1688066737019
+url: "{{ _.api
+  }}/inspection/parametrs/attach?uuid=a4faa79e-b3cc-4413-b1b0-f80e8db2ba7f"
+name: add checks param for check
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |-
+    [
+    	 {
+        "uuid": "b8d0474d-e2e1-46f1-95fe-6f197773bb2e",
+        "value": "my value"
+      } 
+    ]
+parameters: []
+headers:
+  - id: pair_1aa96520da7246578395c0bb04086e6f
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1685091621028.375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

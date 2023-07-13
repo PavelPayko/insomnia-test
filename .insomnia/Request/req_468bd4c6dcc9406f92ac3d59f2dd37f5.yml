@@ -1,0 +1,40 @@
+_id: req_468bd4c6dcc9406f92ac3d59f2dd37f5
+type: Request
+parentId: wrk_1fe241acf33c4be4b85152bdc7b07fe6
+modified: 1688831236378
+created: 1688831011949
+url: "{{ _.api }}/inspection/parametrs"
+name: "update check param "
+description: ""
+method: PATCH
+body:
+  mimeType: application/json
+  text: |
+    {
+      "type": "text",
+      "priority": 1,
+      "name": "Количество человек на стройке",
+      "comment": "Количество привлеченных на объект работников",
+      "measureUnit": "человек",
+      "isAct": true,
+      "needValue": false ,
+      "isActive": false,
+    	"uuid":"429e02aa-a857-4526-bca9-985b7a904788"
+    }
+parameters: []
+headers:
+  - id: pair_1aa96520da7246578395c0bb04086e6f
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1685091621029.9375
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

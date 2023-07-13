@@ -1,0 +1,39 @@
+_id: req_c8e309ccc00e48f9a2d8919357bc88a5
+type: Request
+parentId: wrk_1fe241acf33c4be4b85152bdc7b07fe6
+modified: 1688210311789
+created: 1686660696974
+url: "{{ _.api }}/inspection/parametrs"
+name: "add check param "
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |
+    {
+      "type": "text",
+      "priority": 1,
+      "name": "Погодные условия",
+      "comment": "Погодные условия",
+      "measureUnit": "string",
+      "isAct": true,
+      "needValue": true ,
+      "isActive": false 
+    }
+parameters: []
+headers:
+  - id: pair_1aa96520da7246578395c0bb04086e6f
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1685091621031.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

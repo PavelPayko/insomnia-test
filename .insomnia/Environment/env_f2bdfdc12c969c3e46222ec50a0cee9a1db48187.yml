@@ -1,0 +1,16 @@
+_id: env_f2bdfdc12c969c3e46222ec50a0cee9a1db48187
+type: Environment
+parentId: wrk_1fe241acf33c4be4b85152bdc7b07fe6
+modified: 1689145950007
+created: 1685091621058
+name: Base Environment
+data:
+  api: http://83.217.24.148:3000/api
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOjEsInVzZXJuYW1lIjoidGVzdEFkbWluIiwicm9sZSI6WyJhZG1pbiJdLCJmaWxsUHJvZmlsZSI6MCwiaXNBZG1pbiI6dHJ1ZSwib3JnYW5pemF0aW9uIjpudWxsLCJpYXQiOjE2ODkxNDU5NDIsImV4cCI6MTY4OTIzMjM0Mn0.lhWQDbY8IIkayge50fEV6E4y-b0tmYz1hLPe5zcZLKQ
+dataPropertyOrder:
+  "&":
+    - api
+    - token
+color: null
+isPrivate: false
+metaSortKey: 1685091621058

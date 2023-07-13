@@ -1,0 +1,34 @@
+_id: req_790016e891014f22a8faaf4560bb1d08
+type: Request
+parentId: wrk_1fe241acf33c4be4b85152bdc7b07fe6
+modified: 1686602782713
+created: 1686602702934
+url: "{{ _.api }}/violations/docs"
+name: ldelete docs
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: >-
+    [
+      {
+        "filePath": "pusk/violations/1/min/0_455be7d5-59e3-45df-829a-33b49e99137b.jpeg"
+      }
+    ]
+parameters: []
+headers:
+  - id: pair_1aa96520da7246578395c0bb04086e6f
+    name: Authorization
+    value: "{{ _.token }}"
+    description: ""
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1685091620969
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
